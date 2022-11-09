@@ -4,9 +4,9 @@
   --white: #fff;
   --black: #111;
   --blue: #3a80e9;
+  --grey: #888;
 }
 
-html,
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -24,7 +24,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.2rem;
 }
 
 /* Track */
@@ -36,7 +36,6 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--blue);
   border-radius: 1rem;
-  border: 2px solid var(--white);
 }
 
 /* Handle on hover */
@@ -50,4 +49,8 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
+}
+
+a {
+  text-decoration: none;
 }

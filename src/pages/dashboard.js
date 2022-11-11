@@ -22,7 +22,7 @@ function DashboardPage() {
   return (
     <div>
       <Header />
-      <Tabs />
+      <Tabs data={data} />
     </div>
   );
 }

@@ -12,7 +12,9 @@ import BookmarkRoundedIcon from "@mui/icons-material/BookmarkRounded";
 import IconButton from "@mui/material/IconButton";
 
 function List({ coin, delay }) {
-  const isWatchlist = localStorage.getItem("watchlist").includes(coin.id);
+  const isWatchlist = localStorage.getItem("watchlist")
+    ? localStorage.getItem("watchlist").includes(coin.id)
+    : false;
   const [volume, setVolume] = useState("");
   const [isAdded, setIsAdded] = useState(false);
 

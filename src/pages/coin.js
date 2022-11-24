@@ -5,6 +5,7 @@ import LineChart from "../components/Coin/Chart";
 import Info from "../components/Coin/Info/info";
 import SelectDays from "../components/Coin/SelectDays/selectDays";
 import TogglePrice from "../components/Coin/ToggleComponent/toggle";
+import Footer from "../components/Common/Footer/footer";
 import Header from "../components/Common/Header";
 import Loading from "../components/Common/Loading/loading";
 import List from "../components/Dashboard/ListComponent/List";

@@ -17,4 +17,7 @@
   .list-flex {
     width: auto;
   }
+  .tabHeading {
+    font-size: 90% !important;
+  }
 }

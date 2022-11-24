@@ -32,7 +32,7 @@ export default function Tabs({ data }) {
   });
 
   return (
-    <div>
+    <div style={{ minHeight: "90vh" }}>
       <ThemeProvider theme={theme}>
         <TabContext value={tabValue}>
           <div>

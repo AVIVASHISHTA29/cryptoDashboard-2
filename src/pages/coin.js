@@ -173,6 +173,7 @@ function CoinPage() {
           </div>
         </>
       )}
+      <Footer />
     </div>
   );
 }

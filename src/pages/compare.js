@@ -263,6 +263,7 @@ function ComparePage() {
           </div>
         </>
       )}
+      <Footer />
     </>
   );
 }

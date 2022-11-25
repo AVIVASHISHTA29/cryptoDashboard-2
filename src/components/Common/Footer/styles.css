@@ -23,7 +23,7 @@
 }
 
 .socials-icon {
-  color: var(--white);
+  color: #fff;
   cursor: pointer;
   font-size: 2rem !important;
   transition: all 0.2s ease-in-out !important;

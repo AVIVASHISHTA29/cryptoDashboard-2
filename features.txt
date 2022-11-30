@@ -59,3 +59,6 @@ Other features -
 35. Seo + Code modularity and reusability.
 36. Hosted using netlify, netlify.toml file.
 37. Gradient footer - gradient animation
+
+
+Add this project in your resume.
